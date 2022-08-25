@@ -38,11 +38,11 @@ void FintElement (int[,] arrdif)
             }
             Console.Write($"{arrdif[row, column]}\t");
         }
+        Console.WriteLine();
     }
 }
 
-
-int [,] array = CreateMatrix(5, 3, 1, 3);
+int [,] array = CreateMatrix(5, 3, 2, 3);
 PrintMatrix(array);
 Console.WriteLine();
 FintElement (array);
